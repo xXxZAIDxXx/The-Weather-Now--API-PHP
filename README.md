@@ -1,3 +1,3 @@
-# The Weather Now API in PHP
+# The Weather Now 
 
 ![](Untitled.png)
