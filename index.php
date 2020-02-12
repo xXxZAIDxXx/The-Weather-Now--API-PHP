@@ -9,7 +9,7 @@
 
       # then I connect the API link
 
-          $urlContents = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=".urldecode($_GET['city']).",&appid=91447563c8e536a155b55a2774be049d");
+          $urlContents = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=".urldecode($_GET['city']).",&appid=d");
     
       # Converting json in PHP
         $weatherArray = json_decode($urlContents, true);
